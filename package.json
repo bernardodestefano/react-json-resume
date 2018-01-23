@@ -1,12 +1,16 @@
 {
-  "name": "react-bp",
+  "name": "react-jsonrsm",
   "version": "1.0.0",
-  "description": "react boilerplate",
+  "description": "react json resume",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open --hot",
     "build": "webpack",
     "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bernardodestefano/react-json-resume.git"
   },
   "author": "bernardo de stefano",
   "license": "MIT",
