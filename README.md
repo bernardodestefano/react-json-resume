@@ -1,6 +1,6 @@
 # Webpack boilerplate
 
-A simple react-webpack boilerplate
+A resume generator from json made in react
 
 ## Getting started
 
@@ -12,4 +12,4 @@ A simple react-webpack boilerplate
 ## Contributing
 
 - Fork the project, add your feature (or fix a bug) and open a pull request OR
-- [Open](https://github.com/bernardodestefano/react-boilerplate/issues/new) an issue for bugs or feature request.
+- [Open](https://github.com/bernardodestefano/react-json-resume/issues/new) an issue for bugs or feature request.
