@@ -2,12 +2,13 @@
   "basics": {
     "name": "John Doe",
     "label": "Programmer",
-    "picture": "",
+    "picture": "https://i.imgur.com/cxKvHAB.jpg",
     "email": "john@gmail.com",
     "phone": "(912) 555-4321",
     "website": "http://johndoe.com",
     "summary": "A summary of John Doe...",
-    "location": {
+    "location": "2712 Broadway St, San Francisco CA 94115, US",
+    "location2": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
       "city": "San Francisco",

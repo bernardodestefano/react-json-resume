@@ -1,42 +1,23 @@
 import React from 'react';
-import Basics from './forms/Basics';
-import Skills from './forms/Skills';
+import Basics from './Basics';
+import Skills from './Skills';
+import data from '../data.json';
+import '../style.scss';
 
 class App extends React.Component {
     constructor(props) {
       super(props);
 
-      this.state = {
-        basics: {
-          name: '',
-          role: '',
-          picture: '',
-          email: '',
-          phone: '',
-          website: '',
-          summary: ''
-        },
-        skills: {
-          name: '',
-          level: '',
-          keywords: []
-        }
+      this.state = data;
 
-      }
 
-      this.handleForms = this.handleForms.bind(this);
-    }
-
-    handleForms(data,type) {
-      this.setState({[type]: data});
-      setTimeout(()=>console.log(this.state),200);
     }
 
     render () {
       return (
-        <div className="App">
-          <Basics basics={this.state.basics} onSubmit={this.handleForms}/>
-          <Skills skills={this.state.skills} onSubmit={this.handleForms}/>
+        <div className="app">
+          <Basics basics={this.state.basics}/>
+          <Skills skills={this.state.skills}/>
         </div>
       )
     }
