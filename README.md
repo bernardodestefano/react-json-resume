@@ -1,6 +1,6 @@
-# Webpack boilerplate
+# React json resume
 
-A resume generator from json made in react
+A json resume generator made in react
 
 ## Getting started
 
