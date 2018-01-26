@@ -3,10 +3,7 @@
     "name": "John Doe",
     "label": "Programmer",
     "picture": "https://i.imgur.com/cxKvHAB.jpg",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
-    "website": "http://johndoe.com",
-    "summary": "A summary of John Doe...",
+    "summary": "Boy favourable day can introduced sentiments entreaties. Noisier carried of in warrant because. So mr plate seems cause chief widen first. Two differed husbands met screened his. Bed was form wife out ask draw. Wholly coming at we no enable. Offending sir delivered questions now new met. Acceptance she interested new boisterous day discretion celebrated. In it except to so temper mutual tastes mother. Interested cultivated its continuing now yet are. Out interested acceptance our partiality affronting unpleasant why add. Esteem garden men yet shy course. Consulted up my tolerably sometimes perpetual oh. Expression acceptance imprudence particular had eat unsatiable. ",
     "location": "2712 Broadway St, San Francisco CA 94115, US",
     "location2": {
       "address": "2712 Broadway St",
@@ -16,8 +13,30 @@
       "region": "California"
     },
     "profiles": [{
-      "network": "Twitter",
-      "username": "john",
+      "network": "envelope",
+      "username": "john@gmail.com"
+    },{
+      "network": "phone",
+      "username": "(912) 555-4321"
+    },{
+      "network": "website",
+      "website": "http://johndoe.com"
+    },
+    {
+      "network": "linkedin",
+      "username": "johndoe",
+      "url": "http://twitter.com/john"
+    },{
+      "network": "twitter",
+      "username": "johndoesnt",
+      "url": "http://twitter.com/john"
+    },{
+      "network": "github",
+      "username": "johndoedev",
+      "url": "http://twitter.com/john"
+    },{
+      "network": "skype",
+      "username": "doejohn",
       "url": "http://twitter.com/john"
     }]
   },

@@ -1,8 +1,15 @@
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome.scss";
+
+$so-orange: #f48024;
+$so-black: #222426;
+$so-grey: #bcbbbb;
+
 body {
   font-family: 'Roboto', sans-serif;
 }
 .app{
-
+  margin: 2em;
 }
 
 .basics {
@@ -10,9 +17,12 @@ body {
 
   &__heading {
     display: inline-block;
+    width: 70%;
+    height: 100%;
 
     h1 {
       font-size: 2.5em;
+      margin: 0;
     }
 
     h2 {
@@ -23,13 +33,27 @@ body {
   &__pic-container {
     display: inline-block;
     float: right;
+    height: 100%;
+    width: 28%;
 
   }
 
   &__picture {
-    width: 100;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 5px;
+  }
+
+  .profile {
+    display: inline-block;
+    margin-bottom: 1em;
+
+    a {
+      text-decoration: none;
+      color: #0095ff;
+      margin: 0 1.3em 0 .2em;
+
+    }
   }
 }
 
