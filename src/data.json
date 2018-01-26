@@ -41,7 +41,7 @@
     }]
   },
   "work": [{
-    "company": "Company",
+    "company": "Pied Piper",
     "position": "President",
     "website": "http://company.com",
     "startDate": "2013-01-01",
@@ -87,12 +87,32 @@
     "summary": "Description..."
   }],
   "skills": [{
-    "name": "Web Development",
+    "name": "Kitten Development",
     "level": "Master",
     "keywords": [
       "HTML",
       "CSS",
-      "Javascript"
+      "Javascript",
+      "asd",
+      "asdasd",
+      "asdasdasd",
+      "qwe"
+    ]
+  },{
+    "name": "Air Compression",
+    "level": "Master",
+    "keywords": [
+      "Algorithm",
+      "Compression",
+      "Asdomare"
+    ]
+  },{
+    "name": "Plant Development",
+    "level": "Intermediate",
+    "keywords": [
+      "Java",
+      "C#",
+      "PHP"
     ]
   }],
   "languages": [{

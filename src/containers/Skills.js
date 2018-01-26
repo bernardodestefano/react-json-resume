@@ -1,5 +1,5 @@
 import React from 'react';
-import Keywords from './Keywords';
+import Skill from '../components/Skill';
 
 class Skills extends React.Component {
   constructor(props) {
@@ -8,9 +8,14 @@ class Skills extends React.Component {
   }
 
   render() {
-    return (
-      <section className="Skills">
+    const skills = this.props.skills.map( skill => {
+      return <Skill data={skill} key={skill.name}/>
+    });
 
+
+    return (
+      <section className="skills">
+        {skills}
       </section>
     )
   }

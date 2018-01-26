@@ -1,5 +1,5 @@
 import React from 'react';
-import Socials from '../components/Socials';
+import Profiles from '../components/Profiles';
 import '../style.scss';
 
 
@@ -25,7 +25,7 @@ class Basics extends React.Component {
           <h2>{this.state.label}</h2>
           <p>{this.state.location}</p>
           <div className="basics__profiles">
-            <Socials data={this.state.profiles} />
+            <Profiles data={this.state.profiles} />
           </div>
         </div>
         <div className="basics__pic-container">{picture}</div>

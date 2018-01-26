@@ -12,6 +12,12 @@ body {
   margin: 2em;
 }
 
+.section__title {
+  font-size: 14px;
+  margin-top: 3em;
+  color: $so-orange;
+}
+
 .basics {
   position: relative;
 
@@ -58,5 +64,30 @@ body {
 }
 
 .skills {
+  display: flex;
+}
 
+.skill {
+  width: 30%;
+
+  &__level {
+
+    &__bar {
+
+    }
+  }
+}
+
+.keyword__list {
+  display: flex;
+  flex-flow: row wrap;
+  width: 80%;
+}
+
+.keyword {
+  font-size: 13px;
+  margin-right: 1em;
+  padding-right: .5em;
+  border-right: 1px solid $so-orange;
+  color: $so-orange;
 }
